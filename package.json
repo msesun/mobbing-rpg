@@ -1,0 +1,29 @@
+{
+  "name": "mobbing-rpg",
+  "version": "1.0.0",
+  "description": "Written in: JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack src/index.js --output-path bin/app.js -d --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msesun/mobbing-rpg.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msesun/mobbing-rpg/issues"
+  },
+  "homepage": "https://github.com/msesun/mobbing-rpg#readme",
+  "dependencies": {
+    "mithril": "^2.0.4"
+  },
+  "devDependencies": {
+    "@types/mithril": "^2.0.8",
+    "webpack": "^5.58.2",
+    "webpack-cli": "^4.9.0"
+  }
+}
