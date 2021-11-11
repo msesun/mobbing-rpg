@@ -4,7 +4,7 @@
   "description": "Written in: JavaScript",
   "main": "index.js",
   "scripts": {
-    "start": "webpack src/index.js --output-path bin/app.js -d --watch",
+    "start": "webpack ./src/index.js --output-path bin --output-filename app.js --watch --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
